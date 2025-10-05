@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>MarIA Willy RPG</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.mariawillyrpg</string>
+    <key>CFBundleName</key>
+    <string>MarIA Willy RPG</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <!-- Camera permission for capturing meal photos -->
+    <key>NSCameraUsageDescription</key>
+    <string>L’application a besoin d’accéder à la caméra pour capturer des photos de vos repas.</string>
+    <!-- Photo library permission for saving snapshots and comics -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>L’application a besoin d’enregistrer des captures et des bandes dessinées dans votre photothèque.</string>
+    <!-- HealthKit read permissions -->
+    <key>NSHealthShareUsageDescription</key>
+    <string>Nous lisons vos données santé (pas, étages, calories actives, exercice, sommeil) pour gamifier votre progression.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>Nous ne modifions aucune donnée HealthKit ; lecture uniquement.</string>
+    <!-- Tracking description (required by App Store even if no tracking is performed) -->
+    <key>NSUserTrackingUsageDescription</key>
+    <string>Cette application ne diffuse pas de publicité ciblée et ne suit pas votre activité à des fins de marketing.</string>
+</dict>
+</plist>
